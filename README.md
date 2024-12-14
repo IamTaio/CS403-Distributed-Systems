@@ -4,13 +4,13 @@ This repository contains implementations of various distributed systems concepts
 
 ## Project Structure
 
-### 1. Concurrent Multi-Set Implementation (`/concurrent-set`)
+### 1. Concurrent Multi-Set Implementation (`/Linearizable-Concurrent-Multi-set`)
 
 Implementation of a linearizable concurrent multi-set with leader election functionality.
 
 - `ConSet.py`: Core implementation of the concurrent multi-set data structure
 - `Leader.py`: Leader election algorithm implementation
-- [View Detailed Documentation](concurrent-set/README.md)
+- [View Detailed Documentation](Linearizable-Concurrent-Multi-set/README.md)
 
 **Key Features:**
 
@@ -19,14 +19,14 @@ Implementation of a linearizable concurrent multi-set with leader election funct
 - Leader election protocol
 - Coarse-grained synchronization
 
-### 2. MapReduce Framework (`/mapreduce`)
+### 2. MapReduce Framework (`/MapReduce`)
 
 A simplified MapReduce implementation using ZeroMQ for distributed processing.
 
 - `MapReduce.py`: Core MapReduce framework
 - `FindCitations.py`: Citation counting implementation
 - `FindCyclicReferences.py`: Cyclic reference detection
-- [View Detailed Documentation](mapreduce/README.md)
+- [View Detailed Documentation](MapReduce/README.md)
 
 **Key Features:**
 
@@ -35,14 +35,14 @@ A simplified MapReduce implementation using ZeroMQ for distributed processing.
 - Citation analysis capabilities
 - ZeroMQ communication
 
-### 3. Blockchain System (`/blockchain`)
+### 3. Blockchain System (`/Blockchain-Implementation-using-Pyro4`)
 
 A distributed blockchain implementation using Pyro4 for remote method invocation.
 
 - `BTCServer.py` & `ETHServer.py`: Cryptocurrency chain implementations
 - `MyBlockChain.py`: Core blockchain functionality
 - Client implementation files
-- [View Detailed Documentation](blockchain/README.md)
+- [View Detailed Documentation](Blockchain-Implementation-using-Pyro4/README.md)
 
 **Key Features:**
 
